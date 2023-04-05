@@ -171,7 +171,7 @@ void printArray(int pData[], int dataSz)
 	printf("\tData:\n\t");
 	for (i=0;i<100;++i)
 	{
-        if(i>= dataSz){
+        if(i >= dataSz){
             printf("\n\n");
             return;
         }
